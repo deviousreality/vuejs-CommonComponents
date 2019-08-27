@@ -1,0 +1,7 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "module": "commonjs",
+      "types": [ "vue-typescript-import-dts", "jest" ]
+    }
+  }

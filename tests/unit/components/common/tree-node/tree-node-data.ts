@@ -1,0 +1,127 @@
+export default [
+    { // [0]
+        icon: "icon-01",
+        id: "node-01",
+        title: "Menu Link 01",
+        url: "link-01",
+        children: [],
+    },
+    { // [1]
+        icon: "icon-02",
+        id: "node-02",
+        title: "Menu Link 02",
+        url: "link-02",
+        children: [
+            {
+                icon: "icon-021",
+                id: "node-021",
+                title: "Menu Link 021",
+                url: "link-021",
+                children: [],
+            },
+            {
+                icon: "icon-022",
+                id: "node-022",
+                title: "Menu Link 022",
+                url: "link-022",
+                children: [],
+            },
+            {
+                icon: "icon-023",
+                id: "node-023",
+                title: "Menu Link 032",
+                url: "link-023",
+                children: [],
+            },
+        ],
+    },
+    { // [2]
+        icon: "icon-03",
+        id: "node-03",
+        title: "Menu Link 03",
+        url: "link03",
+        children: [
+            {
+                icon: "icon-031",
+                id: "node-031",
+                title: "Menu Link 031",
+                url: "link-031",
+                children: [],
+            },
+            {
+                icon: "icon-032",
+                id: "node-032",
+                title: "Menu Link 032",
+                url: "link-032",
+                children: [
+                    {
+                        icon: "icon-0321",
+                        id: "node-0321",
+                        title: "Menu Link 0321",
+                        url: "link-0321",
+                        children: [],
+                    },
+                    {
+                        icon: "icon-0322",
+                        id: "node-0322",
+                        title: "Menu Link 0322",
+                        url: "link-0322",
+                        children: [],
+                    },
+                    {
+                        icon: "icon-0323",
+                        id: "node-0323",
+                        title: "Menu Link 0323",
+                        url: "link-0323",
+                        children: [],
+                    },
+                ],
+            },
+            {
+                icon: "icon-033",
+                id: "node-033",
+                title: "Menu Link 033",
+                url: "link-033",
+                children: [
+                    {
+                        icon: "icon-0331",
+                        id: "node-0331",
+                        title: "Menu Link 0331",
+                        url: "link-0331",
+                        children: [],
+                    },
+                    {
+                        icon: "icon-0332",
+                        id: "node-0332",
+                        title: "Menu Link 0332",
+                        url: "link-0332",
+                        children: [],
+                    },
+                    {
+                        icon: "icon-0333",
+                        id: "node-0333",
+                        title: "Menu Link 0333",
+                        url: "link-0333",
+                        children: [],
+                    },
+                ],
+
+            },
+        ],
+    },
+    { // [3]
+        icon: "icon-04",
+        id: "node-04",
+        title: "Menu Link 04",
+        url: "link04",
+        target: "_blank",
+        children: [],
+    },
+    { // [4]
+        icon: "icon-05",
+        id: "node-05",
+        title: "Menu Link 05",
+        url: "#",
+        children: [],
+    },
+];

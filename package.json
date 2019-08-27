@@ -5,29 +5,53 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
-    "vue": "^2.5.17"
+    "typescript": "^3.5.3",
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.0.2",
+    "vue-functional-data-merge": "^2.0.7",
+    "vue-jest": "^3.0.4",
+    "vue-property-decorator": "^8.2.1",
+    "vue-router": "^3.1.2",
+    "vue-typescript-import-dts": "^4.0.0",
+    "vuejs-datepicker": "^1.5.4",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.4",
-    "@vue/cli-plugin-eslint": "^3.0.4",
-    "@vue/cli-service": "^3.0.4",
-    "vue-template-compiler": "^2.5.17"
+    "@types/jest": "^23.1.4",
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-plugin-eslint": "^3.11.0",
+    "@vue/cli-plugin-typescript": "^3.11.0",
+    "@vue/cli-plugin-unit-jest": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "@vue/eslint-config-typescript": "^3.2.0",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^23.0.1",
+    "flush-promises": "^1.0.2",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "ts-jest": "^23.0.0",
+    "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
     "root": true,
     "env": {
-      "node": true
+      "node": true,
+      "es6": true,
+      "commonjs": true
     },
     "extends": [
       "plugin:vue/essential",
-      "eslint:recommended"
+      "eslint:recommended",
+      "@vue/typescript"
     ],
     "rules": {},
     "parserOptions": {
-      "parser": "babel-eslint"
+      "parser": "typescript-eslint-parser"
     }
   },
   "postcss": {

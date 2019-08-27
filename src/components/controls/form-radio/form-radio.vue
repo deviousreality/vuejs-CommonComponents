@@ -1,0 +1,1 @@
+<script lang="ts" src="./form-radio.ts"></script>
